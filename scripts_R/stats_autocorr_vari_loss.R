@@ -1,4 +1,4 @@
-df = read.csv("C:/Users/fviar/Desktop/stage_alice/calcul_can/data_autocorr_var/autocorr_var_loss.csv", sep = ";", header = TRUE)
+df = read.csv("autocorr_var_loss.csv", sep = ";", header = TRUE)
 names(df)
 summary(df)
 
