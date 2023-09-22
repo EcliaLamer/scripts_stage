@@ -1,10 +1,10 @@
-df = read.csv("C:/Users/fviar/Desktop/stage_alice/nn_with_resources_rep/loss_K_var_plus_30_35.csv", sep = ";", header = TRUE)
+df = read.csv("loss_K_var_plus_30_35.csv", sep = ";", header = TRUE)
 
 
-# on vire 30 et 35 car pas maintenant
+# on vire 30 et 35 pour l'instant
 df_2 = df[,-9]
-df_sans_K253035 = df_2[,-8] #pour virer K30/K35
-df_sans_K253035 = df_sans_K253035[,-7] #pour virer K30/K35
+df_sans_K253035 = df_2[,-8] 
+df_sans_K253035 = df_sans_K253035[,-7]
 names(df_sans_K253035)
 
 
